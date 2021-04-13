@@ -3,6 +3,8 @@
 An example of running python in a virtual environment with packages installed
 with pip from a requirements.txt file.
 
+Dependencies: bash, python3 and pip3
+
 First run:
 
     build.sh
