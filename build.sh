@@ -26,3 +26,7 @@ source $builddir/venv/bin/activate
 
 # Install pip packages using pip
 pip3 install -r $builddir/requirements.txt
+
+# Get versions of the installed pip packages for freezing the version numbers
+echo "Frozen pip package version numbers:"
+python -m pip freeze | tee $builddir/requirements_frozen.txt
