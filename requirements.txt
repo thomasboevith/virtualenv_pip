@@ -1,0 +1,7 @@
+# Some example python packages
+ephem
+haversine
+numpy
+pillow
+pytz
+requests
